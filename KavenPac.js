@@ -10,7 +10,7 @@ function FindProxyForURL(url, host) {
 
     // results
     var direct = "DIRECT";
-    var proxy = "PROXY xxx";
+    var proxy = "PROXY dl.pp-pac.info:25";
 
 
     // conditions
