@@ -27,7 +27,7 @@ function FindProxyForURL(url, host) {
 
 
     for (i = 0; i < b.length; i++) {
-        if (dnsDomainIs(host, a[i])) {
+        if (dnsDomainIs(host, b[i])) {
             return proxy;
         }
     }
